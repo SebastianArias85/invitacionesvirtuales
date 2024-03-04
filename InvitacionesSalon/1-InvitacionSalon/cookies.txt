@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+invitacionesvirtuales.net	TRUE	/	FALSE	1999999999	PHPSESSID	3e6e43117f01b2cc190e4e6cf4e6f8e3
+

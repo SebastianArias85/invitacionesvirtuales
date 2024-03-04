@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+ <html lang="es">
+
+<!-- Mirrored from invitacionesvirtuales.net/salon/menuespecialp.php?id=TVRZd09EVTIrdQ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Mar 2024 13:43:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8" />
+<title>¡¡Mis 15 años!! de AYELéN</title>
+ <meta name="description" content="Sugerir canciones para el día 10-12-2024 a las 21:00 - www.invitacionesvirtuales.com.ar">
+  <meta property="og:title" content="¡¡Mis 15 años!! de AYELéN">
+  <meta property="og:image" content="images/confirmacionasistencia.jpg">
+  <meta property="og:description" content="Sugerir canciones para el día Martes 10 de diciembre de 2024 a las 21:00">
+  <meta property="og:url" content="www.invitacionesvirtuales.net" />
+  <meta property="og:type" content="website" />
+    
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="reserva.css">
+<style>
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#radioDiv {
+  margin: 0 auto;
+  width: auto;
+  text-align: left;
+  display: table;
+}
+input::placeholder{
+  text-align:center;
+ }
+ .corre { margin-left:40px; }
+
+</style>
+<script>
+ 
+        function addFields(aa){
+		document.getElementById("cantidad").value=aa;
+		document.getElementById("resto").style.display="block";
+            // Generate a dynamic number of inputs
+            var number = aa;//document.getElementById("member").value;
+            // Get the element where the inputs will be added to
+            var container = document.getElementById("container");
+            // Remove every children it had before
+            while (container.hasChildNodes()) {
+                container.removeChild(container.lastChild);
+            }
+            for (i=0;i<number;i++){
+                // Append a node with a random text
+             //   container.appendChild(document.createTextNode("Nombre " + (i+1)));
+                // Create an <input> element, set its type and name attributes
+                var input = document.createElement("input");
+                input.type = "text";
+                input.name = "member|" + i;
+				input.id =  "member|" + i;
+				input.className =  "w3-input w3-border w3-center";
+				var nom = (i+1)+ " Nombre y Apellido" ;
+				input.setAttribute('placeholder', nom);
+				if(i==0){
+				input.setAttribute('required','');
+                }
+                container.appendChild(input);
+                // Append a line break 
+                container.appendChild(document.createElement("br"));
+				
+					
+	
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo = document.createElement("input");
+               	 	inputo.type = "radio";
+                	inputo.name = "menu|" + i;
+					inputo.id =  "menu|" + i;
+					inputo.value = "celiaco";
+					inputo.className =  "w3-radio corre";
+					if(i==0){
+					inputo.setAttribute('required','');
+                	}
+                	container.appendChild(inputo);
+
+					var dateSpan = document.createElement('label')
+					dateSpan.innerHTML = " Celíaco";
+					dateSpan.className =  "w3-center ";
+					container.appendChild(dateSpan);
+					
+			container.appendChild(document.createElement("br"));
+				
+
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo2 = document.createElement("input");
+               	 	inputo2.type = "radio";
+                	inputo2.name = "menu|" + i;
+					inputo2.id =  "menu|" + i;
+					inputo2.value = "vegetariano";
+					inputo2.className =  "w3-radio corre";
+					if(i==0){
+					inputo2.setAttribute('required','');
+                	}
+                	container.appendChild(inputo2);				
+
+					var dateSpan2 = document.createElement('label')
+					dateSpan2.innerHTML = " Vegetariano";
+					dateSpan2.className =  "w3-center";
+					container.appendChild(dateSpan2);				
+				
+					
+				container.appendChild(document.createElement("br"));
+				
+
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo3 = document.createElement("input");
+               	 	inputo3.type = "radio";
+                	inputo3.name = "menu|" + i;
+					inputo3.id =  "menu|" + i;
+					inputo3.value = "vegano";
+					inputo3.className =  "w3-radio corre";
+					if(i==0){
+					inputo3.setAttribute('required','');
+                	}
+                	container.appendChild(inputo3);	
+
+					var dateSpan3 = document.createElement('label')
+					dateSpan3.innerHTML = " Vegano";
+					dateSpan3.className =  "w3-center";
+					container.appendChild(dateSpan3);
+				container.appendChild(document.createElement("br"));
+				
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo4 = document.createElement("input");
+               	 	inputo4.type = "radio";
+                	inputo4.name = "menu|" + i;
+					inputo4.id =  "menu|" + i;
+					inputo4.value = "diabetico";
+					inputo4.className =  "w3-radio corre";
+					if(i==0){
+					inputo4.setAttribute('required','');
+                	}
+                	container.appendChild(inputo4);	
+
+					var dateSpan4 = document.createElement('label')
+					dateSpan4.innerHTML = " Diabetico";
+					dateSpan4.className =  "w3-center";
+					container.appendChild(dateSpan4);
+					
+
+			container.appendChild(document.createElement("br"));
+				
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo5 = document.createElement("input");
+               	 	inputo5.type = "radio";
+                	inputo5.name = "menu|" + i;
+					inputo5.id =  "menu|" + i;
+					inputo5.value = "hipertenso";
+					inputo5.className =  "w3-radio corre";
+					if(i==0){
+					inputo5.setAttribute('required','');
+                	}
+                	container.appendChild(inputo5);	
+
+					var dateSpan5 = document.createElement('label')
+					dateSpan5.innerHTML = " Hipertenso";
+					dateSpan5.className =  "w3-center";
+					container.appendChild(dateSpan5);
+					
+
+				container.appendChild(document.createElement("br"));
+				
+
+				
+	//				container.appendChild(document.createElement("br"));
+				
+					var inputo6 = document.createElement("input");
+               	 	inputo6.type = "radio";
+                	inputo6.name = "menu|" + i;
+					inputo6.id =  "menu|" + i;
+					inputo6.value = "otro";
+					inputo6.className =  "w3-radio corre";
+					if(i==0){
+					inputo6.setAttribute('required','');
+                	}
+                	container.appendChild(inputo6);	
+
+					var dateSpan6 = document.createElement('label')
+					dateSpan6.innerHTML = " Otro";
+					dateSpan6.className =  "w3-center";
+					container.appendChild(dateSpan6);				
+                container.appendChild(document.createElement("br"));
+				
+				
+								
+                // Append a line break 
+                container.appendChild(document.createElement("br"));
+                container.appendChild(document.createElement("br"));				
+
+
+
+						
+				
+				
+				
+            }
+        }
+    </script>
+</head>
+<body class="w3-content w3-light-grey">
+
+<div class="w3-black w3-content ancho6" style="margin-top:0;">
+<h1 class="w3-center w3-xlarge w3-padding" style="margin: 0!important;">FORMULARIO PARA INFORMAR MENU ESPECIAL</h1>
+</div>
+
+
+
+<div class="w3-row ancho6"  style="background-color:#f5f5f5!important;">
+
+  <div class="w3-col" style="width:150px"><img src="../assets/ayi-wsp316770108040011.jpg" style="max-width:100%; padding:10px 4px;"></div>
+
+  <div class="w3-rest"><h2>Ayelén</h2>
+  <p>¡¡Mis 15 años!! - Martes 10 de diciembre de 2024 a las 21:00</p></div>
+</div>
+
+
+
+
+
+<div class="w3-panel w3-gray ancho6">
+  <p class="w3-center w3-text-white"><strong>Te pedimos que completes y envies el siguiente formulario para informar un MENU ESPECIAL:</strong></p>
+</div> 
+
+<div class="w3-panel ancho6">
+<form method="post" enctype="multipart/form-data" name="form1" id="form1" action="#">
+
+ <div class="w3-center">
+<h3>Seleccioná la cantidad de personas que necesitan un menú especial:</h3>
+
+ <button type="button" class="w3-button w3-xlarge w3-black bb" onClick="addFields(1)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">1</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb"  onclick="addFields(2)" style="max-width:12%; text-align:center; font-size:20px!important; margin: 10px 0;">2</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb"  onclick="addFields(3)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">3</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb" onClick="addFields(4)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">4</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb" onClick="addFields(5)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">5</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb" onClick="addFields(6)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">6</button>
+ <button type="button" class="w3-button w3-xlarge w3-black bb" onClick="addFields(7)" style="max-width:12%; text-align:center; font-size:20px!important;margin: 10px 0">7</button>
+ 
+ </div>
+  
+  
+ 
+  <div id="container" class="w3-margin-top" style="text-align:left;"></div>
+
+<div id="resto" style="display:none;">
+ 
+
+
+<button class="w3-button w3-block w3-section w3-black w3-ripple w3-padding" type="submit">Enviar</button>
+</div> 
+<input name="cantidad" id="cantidad" type="hidden" value="">
+<input name="id_tarjeta" id="id_tarjeta" type="hidden" value="TVRZd09EVTIrdQ">
+<input name="fecha" id="fecha" type="hidden" value="2024-03-04">
+<input name="datos" id="datos" type="hidden" value="form1">
+</form>
+
+</div>
+
+</div>
+<div style="background-color: #454649 !important;
+    color: #ccc; padding: 25px; font-size: 16px; text-align:center;">
+  <strong style="text-transform: uppercase;">invitaciones virtuales<sup>&reg;</sup></strong> <br>
+<a href="https://www.invitacionesvirtuales.net/" target="_blank" style="color: #ccc; text-decoration:none;">www.invitacionesvirtuales.net</a>
+</div>
+</body>
+
+
+<!-- Mirrored from invitacionesvirtuales.net/salon/menuespecialp.php?id=TVRZd09EVTIrdQ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Mar 2024 13:43:23 GMT -->
+</html>

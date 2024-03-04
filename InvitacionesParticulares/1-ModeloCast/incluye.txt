@@ -1,0 +1,8 @@
+1 foto de portada
+Fecha y hora
+Dirección donde se realiza el evento
+Cuenta regresiva
+Mapa con la ubicación
+Confirmación de asistencia
+Y además
+Link para ver el listado de asistentes 
