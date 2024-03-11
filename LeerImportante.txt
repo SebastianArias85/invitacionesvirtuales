@@ -1,0 +1,1 @@
+En las invitaciones de casamiento tiene la opcion de "confirmar la invitacion" esto esta automatizado con una pagina externa llamada "https://formspree.io" en esa pagina te dan un codigo que se debe pegar en el archivo con la url donde se enviaran tus confirmaciones.
